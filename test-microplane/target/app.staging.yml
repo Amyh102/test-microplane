@@ -1,0 +1,38 @@
+---
+ doe: "a deer, a female deer"
+ ray: "a drop of golden sun"
+ pi: 3.14159
+ xmas: true
+ french-hens: 3
+ calling-birds:
+   - huey
+   - dewey
+   - louie
+   - fred
+ xmas-fifth-day:
+   calling-birds: four
+   french-hens: 3
+   golden-rings: 5
+   partridges:
+     count: 1
+     location: "a pear tree"
+   turtle-doves: two
+
+
+  target-path:
+    - name: 'target-name'
+      url: >-
+        https://url
+        -F some_key=${TARGET_KEY}
+        -F environment=${APP_ENV}
+        -F some_user=${USER}
+        -F revision=${TEST}
+
+    - name: 'other-name'
+      url: >-
+        https://url
+        -F some_key=${OTHER_KEY}
+        -F environment=${APP_ENV}
+        -F some_user=${USER}
+        -F revision=${TEST}
+  
